@@ -3,7 +3,7 @@ import Card from './components/Card';
 export default function Home() {
   return (
     <main>
-      <div>
+      <div className = "flex gap-4 p-4">
         <Card
           imgUri="/images/galaxy.webp"
           title="Galaxy"
